@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.11.185"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^4.3.3"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -39,7 +39,13 @@
         "author": "Glen Nilsen",
         "subcategories": [],
         "peripherals": [],
-        "keywords": [],
+        "keywords": [
+            "Serial Communication",
+            "Data Visualizer",
+            "MPLAB Data Visualizer",
+            "UART",
+            "Getting Started"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
