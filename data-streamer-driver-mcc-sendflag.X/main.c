@@ -33,8 +33,8 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 */
 #include "mcc_generated_files/system/system.h"
 
-/*Function declared since MCC components without an init function are not automatically declared as part of SYSTEM_Initialize()*/
-void variableWrite_SendFrame(uint8_t count, uint16_t count16, uint32_t count32, float count_f);
+/*Header file included, since MCC components without an init function are not automatically declared as part of SYSTEM_Initialize()*/
+#include "mcc_generated_files/data_streamer/data_streamer.h"
 
 volatile uint8_t sendflag = 0; /*Global variable declared as volatile */
 uint8_t count = 0;
